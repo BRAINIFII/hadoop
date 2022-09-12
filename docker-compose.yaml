@@ -1,0 +1,10 @@
+version: '3'
+services:
+  app:
+    build: .
+    container_name: hadoop
+    environment:
+      - TZ=Asia/Calcutta
+    ports:
+      - 8088:8088
+      - 9870:9870
