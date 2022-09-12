@@ -47,9 +47,3 @@
 ```bash
   docker-compose up --build -d
 ```
-
-* Shut down docker image
-
-```bash
-  docker-compose down
-```
