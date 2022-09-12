@@ -1,10 +1,11 @@
 
 # Hadoop docker
 
+## Bug found working on it
+
 ![Ubuntu License](https://img.shields.io/badge/Ubuntu-22.04-blue.svg)
 ![GPLv3 License](https://img.shields.io/badge/Hadoop-3.3.4-green.svg)
 ![AGPL License](https://img.shields.io/badge/Java-11.0.16-orange.svg)
-
 
 ## Quick reference
 ### Maintained by:
