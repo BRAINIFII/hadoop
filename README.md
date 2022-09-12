@@ -10,6 +10,9 @@
 ### Maintained by:
 [BRAINIFII](https://www.brainifii.com/)
 
+## Requirements
+* Docker must be installed.([Installation Guide](https://docs.docker.com/engine/install/))
+
 ## Quick Note:
 * All the xml files are already configured in the image so no need to configure anything manually.
 * Access these interfaces with the following URLs:
