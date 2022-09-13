@@ -7,4 +7,12 @@
        <name>yarn.resourcemanager.address</name>
        <value>127.0.0.1:8032</value>
     </property>
+    <property>
+        <name>hadoop.http.staticuser.user</name>
+        <value>root</value>
+    </property>
+    <property>
+        <name>hadoop.user.group.static.mapping.overrides</name>
+        <value>root=;</value>
+    </property>
 </configuration>

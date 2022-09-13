@@ -1,5 +1,8 @@
 FROM ubuntu:22.04
 
+# RUN adduser --system --group --no-create-home hadoop
+# RUN usermod -aG sudo hadoop
+
 # set environment vars
 ENV HADOOP_HOME /opt/hadoop
 ENV JAVA_HOME /usr/lib/jvm/java-11-openjdk-amd64
@@ -39,9 +42,8 @@ ADD start-hadoop.sh start-hadoop.sh
 # expose various ports
 EXPOSE 9870 8088 8032 50070 50075 50030 50060
 
-# stop previous hadoop
-# RUN ./opt/hadoop/sbin/start-all.sh
-
 # start hadoop
 # RUN chmod +x start-hadoop.sh
+
+# USER hadoop
 CMD bash start-hadoop.sh
